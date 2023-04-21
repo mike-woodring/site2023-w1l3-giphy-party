@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Giphy Party</title>
-
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Giphy Party</h1>
+    <h1>Giphy Party QA</h1>
+    <h3 class="giphy-attribution">Powered By GIPHY</h3>
+    <form id="search-form">
+        <div class="search-input">
+            <label>Search term:</label>
+            <input id="search-term" type="text" required="true" value="LOL"/>
+            <button id="search-button" type="submit">Search</button>
+        </div>
+    </form>
+    <div id="search-results">
+    </div>
+    <button id="show-more" type="submit" class="hidden">Show More</button>
+    <script src="script.js"></script>
 </body>
 </html>

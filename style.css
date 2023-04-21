@@ -14,3 +14,11 @@ h1 {
   text-align: center;
   margin: 20px 0;
 }
+
+.giphy-attribution {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
